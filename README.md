@@ -6,7 +6,7 @@ Das Projekt basiert auf einfachen Verfahren.
 2. Video in Frames unterteilen (FFMPEG)
 3. Fynns Frames löschen
 4. Alle Frames in das nice tool von delimitry packen
-
+![alt text](https://github.com/Domepo/CommunityCollage/blob/master/CollageUnsortiert.png)
 ## Installation
 Vielen dank an delimetry für das coole Tool❤️
 
