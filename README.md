@@ -59,3 +59,6 @@ collage_maker.py -f Inputfile\frames\ -o Outputfile\collage.png -w 7582 -i 250
 
 Es gibt noch den Optionalen operator : -s <br>
 Mit dem kann die Bilder Zufälliganordnen.
+![alt text](https://github.com/Domepo/CommunityCollage/blob/master/ColalgeSortitert.png)
+![alt text](https://github.com/Domepo/CommunityCollage/blob/master/ColalgeUnsortitert.png)
+
