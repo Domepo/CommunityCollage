@@ -47,7 +47,15 @@ Jedes Frame hat durch das Musikvideo ein Seitenverhältnis von 16:9.
 sqrt(2907) #Quadratwurzel
 = 53.916
 ```
+Jetzt wissen wir, das die Breite und Höhe 53.916 Bilder besitzen.
+```bash
+53.916 * 140.625 # Die Breite der kleinen Bilder
+=7582            # Das tragen wir jetzt bei -w gesamtbreite ein.
+```
 
+```bash
+collage_maker.py -f Inputfile\frames\ -o Outputfile\collage.png -w 7582 -i 250
+```
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Es gibt noch den Optionalen operator : -s <br>
+Mit dem kann die Bilder Zufälliganordnen.
