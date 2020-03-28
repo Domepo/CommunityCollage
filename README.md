@@ -1,6 +1,6 @@
 # CommunityCollage
 
-Ein Projekt, um alle Frames von allen Statisten aus "Schmeiß mein LEBEN auf den MÜLL - Fynn Kliemann" in eine Collage zupacken.
+Ein Projekt, um alle Frames von allen Statisten aus [Schmeiß mein LEBEN auf den MÜLL - Fynn Kliemann](https://www.youtube.com/watch?v=OVkRd52eabA) in eine Collage zupacken.
 Das Projekt basiert auf folgenden Verfahren.
 1. Video Runterladen
 2. Video in Frames unterteilen (FFMPEG)
@@ -8,7 +8,7 @@ Das Projekt basiert auf folgenden Verfahren.
 4. Alle Frames in das nice tool von delimitry packen<br>
 ![alt text](https://github.com/Domepo/CommunityCollage/blob/master/UnsortiertCompressed.png)
 ## Installation
-Vielen Dank an delimetry für das coole Tool❤️
+Vielen Dank an [delimetry](https://github.com/delimitry) für das coole Tool❤️
 
 ```bash
 https://github.com/delimitry/collage_maker
