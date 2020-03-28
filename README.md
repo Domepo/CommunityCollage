@@ -13,25 +13,41 @@ Vielen dank an delimetry für das coole Tool❤️
 ```bash
 https://github.com/delimitry/collage_maker
 ```
+Python Libary
+```bash
+pip install pillow
+```
 Das bash Programm um das Video in Frames zusplitten.
 ```bash
 https://ffmpeg.org/
 ```
 
 ## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+Video in Frames splitten. Hier ein [Tutorial](https://www.youtube.com/watch?v=OyRXay93GVM)
+```bash
+ffmpeg -i output.mp4 frame%093.png
+```
+Python script um eine Collage zuerstellen
+```bash
+collage_maker.py -f Inputfile\frames\ -o Outputfile\collage.png -w gesamtbreite -i bildhöhe
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Seitenverhältnissberchnungsgedöns
+Wir haben insgesamt 2907 Frames.
+Ich habe einfach mal die Frame höhe auf 250 begrenzt. 
+Jedes Frame hat durch das Musikvideo ein Seitenverhältnis von 16:9.
 
-Please make sure to update tests as appropriate.
+```bash
+(250/16)*9
+= 140.625
+```
+1. Jetzt wissen wir, das jedes kleine Bild eine Auflösung von 140.625*250 hat.
+2. Da wir auch als Output Format 16/9 haben wollen, rechnen wir mit einem Quadrat, da die kleinen Bilder das Endformat bestimmen.
+```bash
+sqrt(2907) #Quadratwurzel
+= 53.916
+```
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
